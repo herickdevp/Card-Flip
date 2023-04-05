@@ -1,0 +1,9 @@
+.habilidades {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  color: #281900;
+  align-items: center;
+}

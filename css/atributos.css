@@ -1,0 +1,42 @@
+.atributos {
+  border: 3px solid var(--p1);
+  padding: 20px 20px 0px 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.indice {
+  margin-bottom: 20px;
+  color: #281900;
+}
+
+.indice li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.indice-img {
+  display: flex;
+  gap: 5px;
+}
+
+.fraqueza {
+  display: flex;
+  justify-content: space-between;
+  max-width: 316px;
+  margin-bottom: 20px;
+}
+
+.fraqueza h2 {
+  color: #855401;
+}
+
+.bio {
+  text-align: center;
+  border-top: 2px solid var(--p1);
+  color: #281900;
+}
+
+.bio p {
+  padding: 15px 0;
+}

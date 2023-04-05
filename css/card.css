@@ -1,0 +1,33 @@
+.card {
+  position: absolute;
+  background: url(../img/bg.jpg);
+  padding: 20px;
+  border-radius: 8px;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.back img {
+  border-radius: 8px;
+  position: absolute;
+  max-width: 350px;
+  z-index: 1;
+}
+
+.back {
+  backface-visibility: hidden;
+}
+.flipper {
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.text-card {
+  padding: 10px;
+  text-align: center;
+  color: var(--p1);
+}

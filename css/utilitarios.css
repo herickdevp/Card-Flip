@@ -1,0 +1,32 @@
+/* TIPOGRAFIA */
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Press+Start+2P&display=swap");
+
+.font-1-t {
+  font: 400 0.7rem/1.25 "Press Start 2P", sans-serif;
+}
+
+.font-1-t2 {
+  font: 400 0.6rem/1.25 "Press Start 2P", sans-serif;
+}
+
+.font-2-t {
+  font: 400 0.7rem/1.25 "Libre Baskerville", sans-serif;
+}
+
+/* CORES */
+
+:root {
+  --gradiente1: linear-gradient(to right, #cb8b22, #c68b2c, #a97014, #cb8b22);
+  --gradiente2: linear-gradient(#aa9a65, #bea86d, #cdba80, #c1ac72);
+
+  --p1: #cb8b22;
+}
+
+.bg-gradiente1 {
+  background: var(--gradiente1);
+}
+
+.bg-gradiente2 {
+  background: var(--gradiente2);
+}
